@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Turn Game</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script src="scripts.js" defer></script>
+    <link rel="stylesheet" href="./styles.css">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+</head>
+<body>
+        <button id="spawnButton" onclick="updatePlayer(), updateMonster()"> Let's Start</button>
+    <div id="player">
+        
+    </div>
+    <div id="monster">
+        
+    </div>
+    <div id="playerButtons">
+        <button onclick="player.drinkHpPotion()" id="drinkHpPotionButton">HP Potion</button>
+        <button onclick="player.attack()" id="attackButton">Attack!</button>
+        <button onclick="player.sleep(5)" id="sleepButton">Sleep</button>
+    </div>
+    <div id="monsterButtons">
+        <button onclick="player.drinkHpPotion()" id="drinkHpPotion">HP Potion</button>
+    </div>
+</body>
+</html>

@@ -1,0 +1,82 @@
+body{
+    background-image: linear-gradient(to right, rgba(49, 206, 198,0.2), rgba(168, 255, 251,1));
+    font-family: 'Montserrat', sans-serif;
+}
+
+*{
+    margin:0;
+}
+p,h3{
+    text-align: center;
+    margin:4px;
+}
+
+h1{
+    text-align: center;
+    margin:20px auto 0 auto;
+    font-size: 60px;
+}
+
+#dead{
+    color:darkred;
+}
+#winner{
+    color: greenyellow;
+}
+
+img{
+    width: 250px;
+    margin: 0 auto;
+    display: block;
+}
+
+button{
+    background-color: royalblue;
+    color: cornsilk;
+    border-radius: 20px;
+}
+
+#spawnButton {
+    font-size: 20px;
+    margin: 1% 7%;
+    display: block;
+    padding: 3px 40px;
+}
+#playerButtons, #monsterButtons{
+    display:inline;
+    float: left;
+    width: 40%;
+    height: 40px;
+    border: solid;
+    margin: 5px 4.7% 0 4.7%;
+    
+
+
+}
+
+#playerButtons>button, #monsterButtons>button{
+    width:60px;
+    font-size: 10px;
+    padding: 5px;
+    margin:  10px 5px;
+}
+
+#player, #monster{
+    display:block;
+    float: left;
+    width: 40%;
+    height: 550px;
+    border: solid blue;
+    margin: 3% 4.7% 0 4.7%;
+}
+
+#characterDisplay{
+    width: 450px;
+    height: 450px;
+    /* background-color: red; */
+    margin: 0 auto;
+    border: solid 7px rgb(141, 104, 70);
+    border-radius: 15%;
+    box-shadow:0 0 8px 1px rgba(0, 0, 0, 0.3);
+
+}

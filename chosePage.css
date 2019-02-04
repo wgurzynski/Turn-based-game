@@ -1,0 +1,58 @@
+body{
+    font-family: 'Montserrat', sans-serif;
+}
+
+#avatarContainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+
+}
+
+.character{
+    background-color: aquamarine;
+    width:150px;
+    height:150px;
+    margin:5px;
+    display: inline-block;
+    background-size: cover;
+}
+
+#character1{
+    background-image: url(./GameAvatars/Fantasy_avatar_people-02-512.png);
+}
+
+#character2{
+    background-image: url(./GameAvatars/Fantasy_avatar_people-03-512.png);
+}
+
+#character3{
+    background-image: url(./GameAvatars/Fantasy_avatar_people-09-512.png);
+}
+
+#character4{
+    background-image: url(./GameAvatars/Fantasy_avatar_people-12-512.png);
+}
+
+#character5{
+    background-image: url(./GameAvatars/Fantasy_avatar_people-14-512.png);
+}
+
+#character6{
+    background-image: url(./GameAvatars/Fantasy_avatar_people-15-512.png);
+}
+
+#character7{
+    background-image: url(./GameAvatars/Fantasy_avatar_people-20-512.png);
+}
+#characterDisplay{
+    width: 450px;
+    height: 450px;
+    /* background-color: red; */
+    margin: 0 auto;
+    border: solid 7px rgb(141, 104, 70);
+    border-radius: 15%;
+    box-shadow:0 0 8px 1px rgba(0, 0, 0, 0.3);
+
+}

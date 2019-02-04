@@ -1,0 +1,83 @@
+body{
+    font-family: 'Montserrat', sans-serif;
+}
+.smallContainer{
+    width: 270px;
+    height: 350px;
+    border: solid 4.5px rgb(141, 104, 70);
+    border-radius: 20px;
+    box-shadow:0 0 8px 1px rgba(0, 0, 0, 0.3);
+    margin:0 50px;
+    background-color: rgb(226, 229, 228);
+    display: inline-block;
+    float:left;
+}
+
+li{
+    /* padding: 5px 0; */
+    list-style: none;
+}
+
+li>p{
+    display: inline-block;
+    margin-left: 10px;
+
+    
+}
+
+li>h3{
+    display: inline-block;
+}
+
+
+.item{
+    border: 2px solid red;
+    width:100px;
+    height:100px;
+    display: inline-block;
+    margin:40px 0 0 18px;
+    border: solid 2.5px rgb(141, 104, 70);
+    border-radius: 20px;
+    box-shadow:0 0 8px 1px rgba(0, 0, 0, 0.3);
+    background-size: cover;
+}
+
+#item1{
+    background-image: url(./img/spells/Fantasy_Spell_Magic_Dungeons_Roleplay-05-512.png);
+}
+#item2{
+    background-image: url(./img/spells/Fantasy_Spell_Magic_Dungeons_Roleplay-16-512.png);
+}
+#item3{
+    background-image: url(./img/spells/Fantasy_Spell_Magic_Dungeons_Roleplay-24-512.png);
+}
+#item4{
+    background-image: url(./img/spells/Fantasy_Spell_Magic_Dungeons_Roleplay-18-512.png );
+}
+
+.heartPicture{
+
+}
+
+.points{
+    background-size: 45px;
+    background-repeat: no-repeat;
+    background-position-y: center;
+}
+
+#healthPoints{
+    background-image: url(./img/heart-512.png);
+    background-position-x: 84.5%;
+}
+#staminaPoints{
+    background-image: url(./img/441_-_Electric_Showk-512.png);
+    background-position-x: 85%;
+}
+#luckPoints{
+    background-image: url(./img/3-leaf_clover-512.png);
+    background-size: 30px;
+    background-position-x: 82.5%;
+}
+
+
+
