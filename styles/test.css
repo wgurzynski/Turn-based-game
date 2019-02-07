@@ -43,16 +43,16 @@ li>h3{
 }
 
 #item1{
-    background-image: url(./img/spells/Fantasy_Spell_Magic_Dungeons_Roleplay-05-512.png);
+    background-image: url(../img/spells/fire-wave.png);
 }
 #item2{
-    background-image: url(./img/spells/Fantasy_Spell_Magic_Dungeons_Roleplay-16-512.png);
+    background-image: url(../img/spells/lava-rain.png);
 }
 #item3{
-    background-image: url(./img/spells/Fantasy_Spell_Magic_Dungeons_Roleplay-24-512.png);
+    background-image: url(../img/spells/berserk-scream.png);
 }
 #item4{
-    background-image: url(./img/spells/Fantasy_Spell_Magic_Dungeons_Roleplay-18-512.png );
+    background-image: url(../img/spells/prayer.png);
 }
 
 .heartPicture{
@@ -66,15 +66,15 @@ li>h3{
 }
 
 #healthPoints{
-    background-image: url(./img/heart-512.png);
+    background-image: url(../img/stats-icons/heart.png);
     background-position-x: 84.5%;
 }
 #staminaPoints{
-    background-image: url(./img/441_-_Electric_Showk-512.png);
+    background-image: url(../img/stats-icons/energy.png);
     background-position-x: 85%;
 }
 #luckPoints{
-    background-image: url(./img/3-leaf_clover-512.png);
+    background-image: url(../img/stats-icons/luck.png);
     background-size: 30px;
     background-position-x: 82.5%;
 }

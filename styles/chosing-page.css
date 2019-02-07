@@ -20,31 +20,31 @@ body{
 }
 
 #character1{
-    background-image: url(./GameAvatars/Fantasy_avatar_people-02-512.png);
+    background-image: url(../img/game-avatars/dwarf.png);
 }
 
 #character2{
-    background-image: url(./GameAvatars/Fantasy_avatar_people-03-512.png);
+    background-image: url(../img/game-avatars/high-elf.png);
 }
 
 #character3{
-    background-image: url(./GameAvatars/Fantasy_avatar_people-09-512.png);
+    background-image: url(../img/game-avatars/monk.png);
 }
 
 #character4{
-    background-image: url(./GameAvatars/Fantasy_avatar_people-12-512.png);
+    background-image: url(../img/game-avatars/fallen-knight.png);
 }
 
 #character5{
-    background-image: url(./GameAvatars/Fantasy_avatar_people-14-512.png);
+    background-image: url(../img/game-avatars/rogue.png);
 }
 
 #character6{
-    background-image: url(./GameAvatars/Fantasy_avatar_people-15-512.png);
+    background-image: url(../img/game-avatars/skeleton.png);
 }
 
 #character7{
-    background-image: url(./GameAvatars/Fantasy_avatar_people-20-512.png);
+    background-image: url(../img/game-avatars/witch.png);
 }
 #characterDisplay{
     width: 450px;

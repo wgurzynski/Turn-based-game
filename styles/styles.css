@@ -1,5 +1,4 @@
 body{
-    background-image: linear-gradient(to right, rgba(49, 206, 198,0.2), rgba(168, 255, 251,1));
     font-family: 'Montserrat', sans-serif;
 }
 
@@ -47,9 +46,10 @@ button{
     float: left;
     width: 40%;
     height: 40px;
-    border: solid;
-    margin: 5px 4.7% 0 4.7%;
-    
+    margin: 5px 4.0% 0 4.7%;
+    background-color:rgb(226, 229, 228);
+    border: solid 4.5px rgb(141, 104, 70);
+    border-radius: 20px;
 
 
 }
@@ -67,7 +67,10 @@ button{
     width: 40%;
     height: 550px;
     border: solid blue;
-    margin: 3% 4.7% 0 4.7%;
+    margin: 3% 4.0% 0 4.7%;
+    background-color:rgb(226, 229, 228);
+    border: solid 4.5px rgb(141, 104, 70);
+    border-radius: 20px;
 }
 
 #characterDisplay{
